@@ -26,11 +26,11 @@ When Switch 1-4 is activated, it will send a BinarySwitch ON (255) or OFF (0) to
 
 The reason I opted to go with FLiRS for this project is to keep the state of the wallswitch and gateway in sync.
 
-The issue with many battery based wallswitch is that if you set for example switch 1 to ON using your gateway, the switch is sleeping and does not know about this change. So when you press the button on the wallswitch, it will attempt to turn the light ON even though its already ON.
+The issue with many battery based wallswitches is that if you set for example switch 1 to ON using your gateway, the switch is sleeping and does not know about this change. So when you press the button on the wallswitch, it will attempt to turn the light ON even though its already ON.
 
 In comes FLiRS with the save.
 
-In my project, command parameters 64/65/66/67 map to switch 1/2/3/4. Yes, I should have done this using a binary switch command class, but I included this device with the parameter based setup and did not want to bother with an exclusion. Seeing as how quickly z-nuo development goes, this was just easier for me.
+In my project, command parameters 64/65/66/67 map to switch 1/2/3/4. Yes, I should have done this using a binary switch command class, but I included this device with the parameter based setup and did not want to bother with an exclusion. Seeing as how quickly z-nuo development goes, this was just easier for me. I am guessing this may be a bit lighter on the battery as well as the packets are a tiny bit smaller, there is NO eeprom writing involved, etc. I use z-way-server as my gateway so I have a fair bit of customization available for me as far as gateway coding goes. But I am guessing most decent gateways should have the option to script in ACTION -> SET CONFIG PARAM logic.
 
 So, to summarize:
 
