@@ -44,6 +44,10 @@ Set parameter 65 to 0.
 
 Etc...
 
+**Inclusion / Exclusion**
+
+I have also added inclusion / exclusion capability without having to use the service button on the zuno. I have not tested this, but the code looks like it should work. To activate learn mode (and thus inclusion / exclusion), press all 4 buttons at once and hold for AT LEAST 10 seconds. If you are excluding your associated switches will all toggle to ON to let you know exclusion has started. If you are including... Just keep holding for a MAXIMUM of 15 seconds.
+
 I am putting this up online because maybe someone will find it useful. YMMV.
 
 Enjoy!
