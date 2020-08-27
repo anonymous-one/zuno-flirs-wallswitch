@@ -1,4 +1,4 @@
-# zuno-flirs-wallswitch
+# Z-Uno FLiRS Wallswitch
 
 This is a very simple, but effective FLiRS based wallswitch using the great little Zuno development board by Zwave.me.
 
