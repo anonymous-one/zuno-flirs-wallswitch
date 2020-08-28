@@ -1,19 +1,23 @@
 # Z-Uno FLiRS Wallswitch
 
-This is a very simple, but effective FLiRS based wallswitch using the great little Zuno development board by Zwave.me.
+This is a very simple yet effective FLiRS based wallswitch using the great little Z-Uno development board by Zwave.me.
 
-A quick note, the one thing I cannot attest to is how the battery life will be over the long run. I have had it up for about 3 days, with multiple OTA firmware updates and so far battery is 100%. I am powering the zuno via 2400mAh 3.6V AA Lithium battery.
+The one thing I cannot attest to is how the battery life will be over the long run. I have had it up for about 3 days, with multiple OTA firmware updates and so far battery is at 100%. I am powering the zuno using a 2400mAh 3.6V AA Lithium battery.
 
 **Hardware**
 
 PINS 17 - 20 : Connect to each of your switches.
+
 GND : Connect to the "common" cable of your switches.
 
 When pin 17/18/19/20 + GND are shorted, the device wakes up and detects a press of the wallswitch.
 
 PIN 17 = Switch 1
+
 PIN 18 = Switch 2
+
 PIN 19 = Switch 3
+
 PIN 20 = Switch 4
 
 I set things up this way because for the life of me I could not get keyscan mode to work.
@@ -38,7 +42,7 @@ Want to synchronize switch 1 to ON state?
 
 Set parameter 64 to 255.
 
-Want to syncronize switch 2 to OFF state?
+Want to synchronize switch 2 to OFF state?
 
 Set parameter 65 to 0.
 
